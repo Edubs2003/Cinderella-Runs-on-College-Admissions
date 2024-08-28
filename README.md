@@ -4,11 +4,11 @@ Our study aims to elucidate the effects of NCAA Cinderella runs on the academic 
 In our analytical approach, we employ an Ordinary Least Squares (OLS) piecewise regression to examine the linear relationships between our predictors and outcomes. This method is particularly suitable given the potential nonlinear relationships suggested by the variable distributions and is aimed at isolating the specific impact of athletic achievements on academic outcomes.
 
 The empirical models are specified to account for both immediate and more prolonged academic impacts. Model 1 focuses on the immediate academic impact by predicting SAT scores in the first academic year following a tournament, which reflects admissions decisions made prior to knowing the tournament outcomes. The regression equation for Model 1 is:
-SAT_Score_{t+1} = β₀ + β₁ Participationₜ + β₂ Cinderella_₀ₜ + β₃ Cinderella_₁ₜ + β₄ Cinderella_2+ₜ + β₅ Typeₜ + β₆ EnrollmentSize_{t-1} + β₇ TimeTrendₜ + εₜ
+SAT_Score_{t+1} = β₀ + β₁ Participationₜ + β₂ Cinderella_₀ₜ + β₃ Cinderella_₁ₜ + β₄ Cinderella_2+ₜ + β₅ Typeₜ + β₆ EnrollmentSize_{t-1} + β₇ TimeTrendₜ + εₜ .
 Model 2 extends this framework by assessing SAT scores two years post-tournament, capturing any delayed effects of the Cinderella run that might manifest after the immediate post-tournament academic cycle.
 
 Similarly, Model 3 examines the immediate impact on admission rates for the first year following the tournament, using a similar regression structure to Model 1 but with admission rates as the dependent variable. The equation for Model 3 is:
-Admission_Rate_{t+1} = β₀ + β₁ Participationₜ + β₂ Cinderella_₀ₜ + β₃ Cinderella_₁ₜ + β₄ Cinderella_2+ₜ + β₅ Typeₜ + β₆ EnrollmentSize_{t-1} + β₇ TimeTrendₜ + εₜ
+Admission_Rate_{t+1} = β₀ + β₁ Participationₜ + β₂ Cinderella_₀ₜ + β₃ Cinderella_₁ₜ + β₄ Cinderella_2+ₜ + β₅ Typeₜ + β₆ EnrollmentSize_{t-1} + β₇ TimeTrendₜ + εₜ .
 Model 4 builds upon Model 3 by analyzing admission rates two years post-tournament, enabling an exploration of more extended impacts.
 
 In addition to these primary explanatory variables, which include participation status and the intensity of Cinderella runs categorized by dummy variables, our models also incorporate controls for institution type (public or private), the size of the student body in the year preceding the tournament, and a linear trend to adjust for overarching temporal patterns in SAT scores or admission rates. Additional controls account for differences between public and private institutions and include historical performance metrics to adjust for existing academic trends that could confound the Cinderella effect.
